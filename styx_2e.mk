@@ -14,6 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common Styx stuff
 $(call inherit-product, vendor/styx/config/common.mk)
+TARGET_DISABLE_BLUR := true
 
 PRODUCT_DEVICE := 2e
 PRODUCT_MANUFACTURER := Teracube
