@@ -25,6 +25,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-teracube
 TARGET_VENDOR := teracube
 TARGET_VENDOR_PRODUCT_NAME := 2e
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="full_yk673v6_lwg62_64-user 10 QP1A.190711.020 p1k61v164bspP29 release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Teracube/Teracube_2e/Teracube_2e:10/QP1A.190711.020/202011161116:user/release-keys
