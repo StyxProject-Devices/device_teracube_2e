@@ -1,0 +1,32 @@
+[
+ {
+   "repository": "device_teracube_2e",
+   "target_path": "device/teracube/2e"
+ },
+ {
+   "repository": "kernel_teracube_2e",
+   "target_path": "kernel/teracube/2e"
+ },
+ {
+   "repository": "vendor_teracube_2e",
+   "target_path": "vendor/teracube/2e"
+ },
+ {
+   "repository": "vendor_mediatek_ims",
+   "target_path": "vendor/mediatek/ims",
+   "branch": "R",
+   "remote": "styx"
+ },
+ {
+   "repository": "vendor_mediatek_opensource",
+   "target_path": "vendor/mediatek/opensource",
+   "branch": "R",
+   "remote": "styx"
+ },
+ {
+   "repository": "vendor_mediatek_interfaces",
+   "target_path": "vendor/mediatek/interfaces",
+   "branch": "R",
+   "remote": "styx"
+ }
+]
