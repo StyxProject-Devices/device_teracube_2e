@@ -12,9 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
+TARGET_DISABLE_BLUR := true
+TARGET_GAPPS_ARCH := arm64
 # Inherit some common Styx stuff
 $(call inherit-product, vendor/styx/config/common.mk)
-TARGET_DISABLE_BLUR := true
 
 PRODUCT_DEVICE := 2e
 PRODUCT_MANUFACTURER := Teracube
