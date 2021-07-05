@@ -313,8 +313,7 @@ PRODUCT_BOOT_JARS += \
     mediatek-ims-common \
     mediatek-telecom-common \
     mediatek-telephony-base \
-    mediatek-telephony-common \
-    imsshimservice
+    mediatek-telephony-common
 
 # Shims
 PRODUCT_PACKAGES += libshim_vtservice
