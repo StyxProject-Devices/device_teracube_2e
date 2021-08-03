@@ -12,6 +12,10 @@
    "target_path": "vendor/teracube/2e"
  },
  {
+   "repository": "vendor_teracube_2e-firmware",
+   "target_path": "vendor/teracube/2e-firmware"
+ },
+ {
    "repository": "vendor_mediatek_ims",
    "target_path": "vendor/mediatek/ims",
    "branch": "R",
